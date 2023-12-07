@@ -58,9 +58,9 @@ console.log(" please enter an email")
 }
 //logical operators
 if (email2 && password){
-console.log(" allow login")
+console.log(" allow login");
 }else {
-console.log("please enter email and password")
+console.log("please enter email and password");
 }
 
 //allow user to signin with google and github
@@ -68,7 +68,46 @@ const googleLoginToken = ""
 const githubLoginToken = ""
 
 if (googleLoginToken||githubLoginToken){
-    console.log("welcome to the app")
+    console.log("welcome to the app");
 }else{
     console.log("please login to view your account");
 }
+
+//
+let age = 19
+if (age>= 18){
+    console.log("you get the driving licence");
+}else {
+    console.log("you are not eligible for driving licence");
+}
+//or
+let age2 = 19
+const willYouGetDrivingLicence = false
+if (age2>= 18){
+    console.log("you get the driving licence");
+    willYouGetDrivingLicence = true
+}else {
+    console.log("you are not eligible for driving licence");
+    willYouGetDrivingLicence = false
+}
+
+//by using ternary operator
+const variableName = age>=18 ? "true part" : "false part"
+
+//eg
+let age3 = 19
+const willYouGetDrivingLicence2 = false
+
+(age3>=18) ? willYouGetDrivingLicence2 = true : willYouGetDrivingLicence2 = false
+
+// return type
+
+let loading = false
+
+if (loading){
+    return "loading..."
+}
+console.log("show the cards to user");
+
+//by ternary operator
+loading ? "show loading spinner" : "show card to user"
