@@ -1,0 +1,1 @@
+1. why console.log is not the part of official Ecmasript docs?
