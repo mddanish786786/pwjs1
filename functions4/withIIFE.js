@@ -17,3 +17,5 @@ downloadScript();
     console.log("calling intern code");
     downloadScriptFromIdeonAndPopulatedDatabase();
 })();
+
+downloadScriptFromIdeonAndPopulatedDatabase();
